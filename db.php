@@ -1,7 +1,7 @@
 <?php
    $data_base = mysqli_connect('localhost', 'root', 'root','db_ecommervce_bootstrap_template');
 
-   echo "A conexão foi realizada com sucesso";
+//    echo "A conexão foi realizada com sucesso";
 
    if (mysqli_connect_errno()) {
        # code...
